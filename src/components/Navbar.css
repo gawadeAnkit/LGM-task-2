@@ -1,0 +1,71 @@
+         /* navbar  */
+.navbar {
+  background: linear-gradient(#8ef57a, #c5f5ed);
+  display:flex;
+  height: 50px;
+  border-radius: 15px;
+         /* logo design */
+}
+.logo {
+  color: rgb(0, 0, 0);
+  font-family:'Courier New', Courier, monospace;
+  font-size: 25px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+                                /* get user button design */
+.btnuser {
+  margin-left: 1100px;
+  width: 120px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius:20px;
+  border: solid rgb(255, 255, 255);
+  font-size: 15px;
+  background-color: rgba(242, 245, 49, 0.911);
+         /* hover */
+}
+.btnuser:hover{
+  background-color: rgba(104, 3, 163, 0.979);
+  cursor: pointer;
+  color: white;
+
+}
+.card-main-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  
+}
+.card-container {
+  margin-left: 100px;
+  
+}
+
+
+.card {
+  background-color: rgba(255, 255, 255, 0.836);
+  border-radius: 25px;
+  margin: 45px;
+  width: 250px;
+  height: 350px;
+}
+.userimage {
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+.username {
+  text-align: center;
+  font-size: 20px;
+}
+
+.useremail {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 800;
+  font-size: 17px;
+
+}
